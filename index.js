@@ -1,14 +1,3 @@
-import { join, dirname } from 'path'
-import { createRequire } from 'module'
-import { fileURLToPath } from 'url'
-import { setupMaster, fork } from 'cluster'
-import { watchFile, unwatchFile } from 'fs'
-import cfonts from 'cfonts'
-import { createInterface } from 'readline'
-import boxen from 'boxen'
-import yargs from 'yargs'
-import chalk from 'chalk'
-
 const { WAConnection, MessageType, ReconnectMode } = require('@adiwajshing/baileys');
 const fs = require('fs');
 const readline = require('readline');
